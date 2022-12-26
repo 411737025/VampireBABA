@@ -277,7 +277,9 @@ function draw() {
 }
   else{
     push()
+    fill(0)
     rect(140,575,300,300)
+    fill(255)
     textSize(15);
     text("這隻吸血兔子(?)是BABA",140,605);
     text("你可以用上面的按鈕跟他互動有以下選擇",140,635);
